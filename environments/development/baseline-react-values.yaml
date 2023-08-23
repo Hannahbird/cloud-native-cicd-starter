@@ -1,5 +1,5 @@
 image:
-  repository: krumware/baseline-react-app
+  repository: hannahbird/baseline-react-app
   pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
 
@@ -16,7 +16,7 @@ ingress:
     # kubernetes.io/ingress.class: nginx
     # kubernetes.io/tls-acme: "true"
   hosts:
-    - host: react.131.153.227.137.sslip.io
+    - host: react.212.2.242.29.sslip.io
       paths:
         - path: /
           pathType: Prefix
